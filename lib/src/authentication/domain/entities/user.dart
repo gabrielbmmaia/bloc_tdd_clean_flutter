@@ -26,5 +26,5 @@ class User extends Equatable {
    * são iguais apartir do valor que colocamos. Ex:. [id]
    * */
   @override
-  List<Object?> get props => [id];
+  List<Object?> get props => [id, name, avatar];
 }
